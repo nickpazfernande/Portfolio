@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
 
 .root {
   --primary-white: #fff;
@@ -8,12 +9,23 @@
 
 body {
   font-family: "Roboto Condesed" sans-serif;
+  background-color: black;
+}
+.App {
+  background-color: black;
+  background: rgb(33, 37, 41);
+  background: linear-gradient(
+    171deg,
+    rgba(33, 37, 41, 1) 49%,
+    rgba(47, 108, 179, 1) 100%
+  );
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /************ NavBar******************/
-nav {
-  z-index: 2;
-}
+
 .logo {
   width: 16 rem;
 }
@@ -31,11 +43,12 @@ nav ul li {
 /************ Header ******************/
 
 .header-wraper {
-  position: relative;
-  background: url(background.jpg) no-repeat;
+  background: url(/src/assets/img/background.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
-  height: 90vh;
+  background-attachment: fixed;
+  height: 100vh;
 }
 .main-info {
   display: flex;
@@ -52,13 +65,14 @@ nav ul li {
   font-family: "Roboto Condesed" sans-serif;
 }
 .main-info h1 {
-  color: #f9ab00;
+  color: #2f6cb3;
   text-transform: uppercase;
 }
 /***************************** type text *********************/
 .typed-text {
   font-size: 2rem;
   color: #fff;
+  z-index: 12;
 }
 
 /***************************** Particles JS *********************/
@@ -66,5 +80,32 @@ nav ul li {
   position: absolute;
   height: 100vh;
   width: 100vw;
-  z-index: 1;
+}
+
+.divprimary {
+  background-color: #202124;
+}
+
+.divsecondary {
+  background-color: #171717;
+}
+.nick {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CSS */
+
+.btn {
+  z-index: 90;
+}
+.logo {
+  width: 90px;
+}
+
+.divOpacity {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+h4 {
+  font-family: "Lora", serif;
 }

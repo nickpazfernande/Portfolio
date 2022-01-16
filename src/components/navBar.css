@@ -1,0 +1,8 @@
+@media screen and (max-width: 768px) {
+  .logo-nick {
+    width: 70px;
+  }
+  .logo-link {
+    margin-left: 30px;
+  }
+}

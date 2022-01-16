@@ -1,0 +1,28 @@
+.imgPerfil {
+  height: 300px;
+  border-radius: 50%;
+  border: 2px solid #2f6cb3;
+  object-fit: cover;
+}
+.divOpacity {
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 80;
+}
+.info {
+  padding-left: 150px !important;
+  padding-right: 150px !important;
+  background-color: #1f1f1f;
+  height: 900px;
+  align-content: center;
+}
+.div-img {
+  align-self: center;
+}
+@media screen and (max-width: 768px) {
+  .info {
+    height: 100%;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    padding-bottom: 48px;
+  }
+}
