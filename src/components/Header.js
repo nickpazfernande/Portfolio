@@ -1,4 +1,5 @@
 import React from "react";
+import "./header.css";
 import Typed from "react-typed";
 import Particles from "react-particles-js";
 import { Link } from "react-router-dom";

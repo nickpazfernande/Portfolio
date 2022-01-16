@@ -2,3 +2,11 @@
   width: 20px;
   margin-left: 16px;
 }
+
+.icon-linkedin:hover {
+  border-radius: 10px;
+  width: 25px;
+}
+
+@media screen and (max-width: 768px) {
+}

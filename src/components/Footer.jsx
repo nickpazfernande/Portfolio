@@ -10,20 +10,16 @@ const Footer = () => {
       <div className="container">
         <p>
           Desarrollado por Nick Paz Copyright © Todos los derechos reservados.
-          <a href="https://www.linkedin.com/in/nick-pazf/">
-            <img src={linkedin} alt="Icon Linkedin" className="icon-linkedin" />
-          </a>
-          <a href="https://github.com/nickpazfernande">
-            <img src={github} alt="Icon Linkedin" className="icon-linkedin" />
-          </a>
-          <a href="https://www.instagram.com/nickpazf">
-            <img
-              src={instagram}
-              alt="Icon Linkedin"
-              className="icon-linkedin"
-            />
-          </a>
         </p>
+        <a href="https://www.linkedin.com/in/nick-pazf/">
+          <img src={linkedin} alt="Icon Linkedin" className="icon-linkedin" />
+        </a>
+        <a href="https://github.com/nickpazfernande">
+          <img src={github} alt="Icon Linkedin" className="icon-linkedin" />
+        </a>
+        <a href="https://www.instagram.com/nickpazf">
+          <img src={instagram} alt="Icon Linkedin" className="icon-linkedin" />
+        </a>
       </div>
     </footer>
   );

@@ -125,9 +125,9 @@ const Contact = () => {
               <small className="notify" id="notify"></small>
             </div>
           </div>
-          <small className="text-secondary mt-3 text-center">
+          <small className="text-white mt-3 text-center">
             *Este mensaje será enviado directamente a mi e-mail
-            (contacto@nick.com.uy). Me pondré en contacto contigo lo más pronto
+            (contacto@nick.com.uy) y me pondré en contacto contigo lo más pronto
             posible.
           </small>
         </div>
